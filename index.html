@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Timed Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">    
+</head>
+
+<body>
+    <header>
+        <div class="large-font fancy">CODING QUIZ!</div>
+        <div class="start-button"><button>Start Quiz</button></div>
+        <!-- TIMER -->
+        <div>
+            <div>Time Left</div>
+            <div class="timerSeconds">45</div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <!-- QUIZ -->
+                <div class="quizBox"></div>
+            </div>
+        </section>
+    
+
+    <!-- Leaderboard -->
+    <div class="resultBox">
+        <div class="complete">You've completed the Quiz!</div>
+        <div class="score">
+            <!-- Score results -->
+        </div>
+        <div class="buttons">
+            <button class="replayBtn">Replay Quiz</button>
+            <button class="quitBtn">Quit Quiz</button>
+        </div>
+    </div>
+    </main>
+
+    <!-- Quiz questions -->
+    <script src="./assets/js/questions.js"></script>
+    <!-- Generate quiz -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
+</html>
