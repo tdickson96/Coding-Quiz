@@ -19,7 +19,7 @@ body {
     font-family: Apple Chancery, cursive;
 }
 
-.start-button {
+#start-button {
     font-weight: 300;
     color: #118507;
     padding: 10px 20px;
@@ -42,12 +42,11 @@ body {
     justify-content: flex-start;
 }
 
-.resultBox,
-.replayBtn,
-.quitBtn {
-    font-size: ;
+.resultBox {
+    align-items: flex-end;
 }
 
-.complete {
-    display: hidden;
+.complete,
+#replay-button {
+    display: none;
 }

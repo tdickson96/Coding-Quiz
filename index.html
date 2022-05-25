@@ -11,34 +11,26 @@
 <body>
     <header>
         <div class="large-font fancy">CODING QUIZ!</div>
-        <div class="start-button"><button>Start Quiz</button></div>
+        <div id="start-button"><button>Start Quiz</button></div>
         <!-- TIMER -->
-        <div>
-            <div>Time Left</div>
-            <div class="timerSeconds">45</div>
-        </div>
+        <div>Time Left: <a class="timerSeconds">45</a></div>
     </header>
 
     <main>
         <section>
-            <div>
-                <!-- QUIZ -->
-                <div class="quizBox"></div>
-            </div>
+            <!-- QUIZ -->
+            <div class="quizBox"></div>
         </section>
-    
 
     <!-- Leaderboard -->
-    <div class="resultBox">
-        <div class="complete">You've completed the Quiz!</div>
-        <div class="score">
-            <!-- Score results -->
-        </div>
+        <section>
+            <div class="wins">Wins</div>
+            <div id="losses">losses</div>     
+            </div>
         <div class="buttons">
-            <button class="replayBtn">Replay Quiz</button>
-            <button class="quitBtn">Quit Quiz</button>
+            <button id="replay-button">Replay!</button>
         </div>
-    </div>
+        </section>
     </main>
 
     <!-- Quiz questions -->
@@ -46,5 +38,5 @@
     <!-- Generate quiz -->
     <script src="./assets/js/script.js"></script>
 </body>
-</html>
+
 </html>
