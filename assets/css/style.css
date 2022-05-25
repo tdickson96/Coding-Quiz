@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Times 'Times New Roman', Times, sans-serif;
+}
+
+body {
+    background: #118507;
+    font-size: 16px;
+}
+
+.large-font {
+    font-size: 30px;
+    align-content: center;
+}
+
+.fancy {
+    font-family: Apple Chancery, cursive;
+}
+
+.start-button {
+    font-weight: 300;
+    color: #118507;
+    padding: 10px 20px;
+    outline: dotted;
+    border: thick;
+    border-radius: 10px;
+    background: #155724;
+    cursor: pointer;
+}
+
+.resultBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.resultBox {
+    opacity: 1;
+    pointer-events: auto;
+    justify-content: flex-start;
+}
+
+.resultBox,
+.replayBtn,
+.quitBtn {
+    font-size: ;
+}
+
+.complete {
+    display: hidden;
+}
