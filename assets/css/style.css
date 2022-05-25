@@ -29,24 +29,3 @@ body {
     background: #155724;
     cursor: pointer;
 }
-
-.resultBox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.resultBox {
-    opacity: 1;
-    pointer-events: auto;
-    justify-content: flex-start;
-}
-
-.resultBox {
-    align-items: flex-end;
-}
-
-.complete,
-#replay-button {
-    display: none;
-}

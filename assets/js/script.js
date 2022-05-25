@@ -1,5 +1,4 @@
 let startBtn = document.querySelector("#start-button");
-let replayBtn = document.querySelector("#replay-button")
 let timeLeft = 45;
 let score = 0;
 let currentQuestion = 0;
@@ -35,13 +34,11 @@ function generateQuiz() {
                 var name = prompt('Enter your name', 'someName');
                 if (name != null && name != "") {
                     alert("Your name is " + name + " and your score is " + score);
-                    document.getElementById('replay').style.display = "block";
                 }
             }
             // Lose condition = time reaches zero and a replay button appears
             if (timeLeft <= 0) {
                 alert("You lose!");
-                document.getElementById('replay').style.display = "block";
             }
 
             currentQuestion++;
@@ -72,5 +69,3 @@ function startQuiz() {
 }
 
 startBtn.addEventListener("click", startQuiz);
-// Replay button
-replayBtn.addEventListener("click", startQuiz);
