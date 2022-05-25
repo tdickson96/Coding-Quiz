@@ -20,25 +20,26 @@ function generateQuiz() {
         button.textContent = questionArray.options[i];
         quizBox.append(button);
         button.addEventListener('click', function () {
-            // If 
+            
+            // Lose condition = time reaches zero and a replay button appears
+            if (timeLeft <= 0) {
+                alert("You lose!");
+            }
+            // If answer correct score + 1
             if (event.target.innerHTML === questionArray.answer) {
                 score++;
                 console.log(score);
+                // If answer incorrect subtract 5 seconds from timeLeft timer interval
             } else {
                 console.log('Incorrect!');
                 timeLeft -=5;
             } 
-
             // then win condition 
             if (currentQuestion === questions.length) {
                 var name = prompt('Enter your name', 'someName');
                 if (name != null && name != "") {
                     alert("Your name is " + name + " and your score is " + score);
                 }
-            }
-            // Lose condition = time reaches zero and a replay button appears
-            if (timeLeft <= 0) {
-                alert("You lose!");
             }
 
             currentQuestion++;
