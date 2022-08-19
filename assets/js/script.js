@@ -36,9 +36,11 @@ function generateQuiz() {
             } 
             // then win condition 
             if (currentQuestion === questions.length) {
+                wins++;
                 var name = prompt('Enter your name', 'someName');
                 if (name != null && name != "") {
                     alert("Your name is " + name + " and your score is " + score);
+                    return startTimer;
                 }
             }
 

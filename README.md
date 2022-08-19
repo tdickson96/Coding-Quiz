@@ -13,7 +13,15 @@ Client was looking for a timed quiz to practice JavaScript knowledge questions. 
 
 ## Usage
 
-![alt text](./assets/images/screenshot0.png)
+![demo](./assets/images/demo0.png)
+
+![demo](./assets/images/demo1.png)
+
+![demo](./assets/images/demo2.png)
+
+![demo](./assets/images/demo3.png)
+
+![demo](./assets/images/demo4.png)
 
 
 ## Credits
