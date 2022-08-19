@@ -26,6 +26,7 @@ Client was looking for a timed quiz to practice JavaScript knowledge questions. 
 
 ## Credits
 Trent Dickson
+
 Godfrey Best
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
